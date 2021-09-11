@@ -1,40 +1,77 @@
-YOUR NAME Lab 2: Intro to HTML
-
-Selectors
-Main Page
-
-First, the basics.
-
-You need the following to build your website.
-
-HTML and CSS
-Javascript
-Node.js
-And other web development frameworks
-
-You should list your top 3 goals for the class below.
-
-Learn front-end web design
-Learn new programming languages
-Learn how to work with others in a technical space
-Learn popular web dev frameworks
-
-Let's Try Some Inline Elements
-
-Sometimes you want to draw attention to something in a line of text.
-
-Sometimes you want to strongly emphasize something in the text.
-
-Sometimes you want to do both.
-
-Empty Elements
-
-Soft line breaks can't wrap anything. Neither can image tags, or hard lines.
-Add a hard line under here, and make sure you've used some soft line breaks to match your page to the sample.
-
-Images 
-
-Don't forget to use alt text on your images. It's important for accessibility.
-
-Include a hyperlink here to your github repository for class.
-If you want your repo to be private, be sure to invite Prof A as a "collaborator."
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>index</title>
+      <link rel="stylesheet" type="text/css" href="css/styles.css">
+   </head>
+   <body>
+      <div class="wrapper">
+         <div class="title">
+            <h1>MATTHEW SCHWARTZ Lab 2: CSS Selectors</h1>
+         </div>
+         <nav>
+            <a href="selectors.html">Selectors</a>
+            <a href="index.html">Main page</a>
+         </nav>
+         <h2>First, the basics.</h2>
+         <a>You need the following to build your website.</a>
+         <br>
+         <div class="section_1">
+            <ul>
+               <li>HTML and CSS</li>
+               <li>Javascript</li>
+               <li>Node.js</li>
+               <li>And other web development frameworks</li>
+            </ul>
+            <ol>
+               <p>You should list your top 3 goals for the class below.</p>
+               <br>
+               <li>Learn front-end web design</li>
+               <li>Learn new programming languages</li>
+               <li>Learn how to work with others in a technical space</li>
+               <li>Learn popular web dev frameworks</li>
+            </ol>
+         </div>
+         <div class="section_2">
+            <h2>Let's Try Some Inline Elements</h2>
+            <a>Sometimes you want to <i>draw attention</i> to something in a line of text.</a>
+            <br><br>
+            <a>Sometimes you want to <strong>strongly emphasize</strong> something in the text.</a>
+            <br><br>
+            <a>Sometimes you want to <strong><i></i>do both</strong>.</a>
+         </div>
+         <br><br>
+         <div class="section_3">
+            <h3>Empty Elements</h3>
+            <a>Soft line breaks can't wrap anything.</a> <br>
+            <a>Neither can image tags, or hard lines.</a> <br>
+            <a>Add a hard line under here, and make sure you've used some soft line breaks to match your page to the sample.</a> 
+            <hr>
+         </div>
+         <div class="section_4">
+            <div class="text">
+               <h2>Images</h2>
+               <br>
+               <div class="left">
+                  <ul>
+                     <li>Include the four images in the /images folder below</li>
+                     <li>Don't forget to use alt text on your images. It's important for accessibility.</li>
+                  </ul>
+                  <br>
+               </div>
+            </div>
+            <div class="right">
+               <img src="images/onigiri_1.png" alt="onigiri_1">
+               <img src="images/onigiri_2.png" alt="onigiri_2">
+               <img src="images/onigiri_3.png" alt="onigiri_3">
+               <img src="images/onigiri_4.png" alt="onigiri_4">
+            </div>
+            <hr>
+         </div>
+         <a href="https://github.com/M-Schwartz99/INST377-Lab-Work">Include a hyperlink here to your github repository for class.</a>
+         <br> <br>
+         <p>If you want your repo to be private, be sure to invite Prof A as a "collaborator."</p>
+      </div>
+   </body>
+</html>
