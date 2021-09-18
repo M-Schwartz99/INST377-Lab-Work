@@ -3,6 +3,16 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  .title {
+    display: inline-block;
+    background-color: rgba(0, 139, 139, 0.8);
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin: 0;
+    width: 100%;
+    margin-bottom: 5px;
+  }
   
   .menu-container {
     color: #fff;
@@ -18,7 +28,6 @@
     display: flex;
     justify-content: space-between;
     background-color: #5995DA;
-    height: 80px;
   }
 
   .content {
@@ -53,11 +62,15 @@
   }
   
 
-  .social,.logo,.subscribe {
+  .social,.subscribe {
     align-self: flex-end;
     margin-bottom: 20px;
     border: 1px solid #5995DA;
   }   
+
+  .logo {
+    align-self: center;
+  }
 
   .photo-grid-container {
     display: flex;
@@ -69,7 +82,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
     
   }
@@ -104,9 +117,9 @@
   flex: initial;
   width: 300px;
   }
+
   .signup {
     margin-left: auto;
-    background-color: #D6E9FE;
   }
   
   /* Mobile Styles */
