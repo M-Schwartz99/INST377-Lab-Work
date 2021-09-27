@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <meta name='viewport'
+      content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <title>Some Web Page</title>
+    <link rel='stylesheet' href='styles.css'/>
+  </head>
+  <body>
+    <h1 class='title'>Matthew Schwartz Lab 3: Flexbox Demo</h1>
+    <div class='menu-container'>
+        <div class='menu'>
+            <div class='date'>Aug 14, 2021</div>
+            <div class='links'>
+              <div class='signup'><a href='data.html'>Database Demos</a></div>      <!-- This is nested now -->
+              <div class='login'><a href='index.html'>Main Page</a></div>         <!-- This one too! -->
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class='header-container'>
+        <div class='header'>
+            <div class='social'><a href=''>Group Project</a></div>
+            <div class='logo'><img src='images/awesome-logo.svg'/></div>
+            <div class='social'><a href='https://github.com/M-Schwartz99/INST377-Lab-Work'>My Github</a></div>
+        </div>
+    </div>
+    <div class="carousel">
+      <div class="carousel__item carousel__item--visible">
+        <img src="images/one.svg" />
+      </div>
+      <div class="carousel__item">
+        <img src="images/two.svg" />
+      </div>
+      <div class="carousel__item">
+        <img src="images/three.svg" />
+      </div>
+      <div class="carousel__item">
+        <img src="images/four.svg" />
+      </div>
+      <div class="carousel__item">
+        <img src="images/five.svg" />
+      </div>
+
+      <div class="carousel__actions">
+        <button id="carousel__button--prev" aria-label="Previous slide"><</button>
+        <button id="carousel__button--next" aria-label="Next slide">></button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+
+        <div class='footer'>
+            <div class='footer-item footer-one'>footer item 1</div>
+            <div class='footer-item footer-two'>footer item 2</div>
+            <div class='footer-item footer-three'>footer item 3</div>
+          </div>
+        </div>
+      
+  </body>
+  
+</html>
