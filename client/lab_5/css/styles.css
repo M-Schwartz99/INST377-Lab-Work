@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #364e4f !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’,
+    ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
+  background-color: darkslategray;
+}
+
+/* Page Layout */
+
+.wrapper {
+  display: flex;
+}
+
+.container {
+  max-width: 960px;
+  margin-top: 25px;
+}
+
+
+.columns {
+  display: flex !important;
+  justify-content: space-around !important;
+  flex-wrap: wrap;
+}
+
+.main-heading {
+  background-color: #fae195;
+  font-size: 1.5rem;
+  width: 70%;
+  padding: 1%;
+  border-radius: 10px;
+  margin: 5% auto !important;
+}
+
+.mainForm {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 6% 4%;
+  border-radius: 10px;
+  font-weight: 600;
+  margin: auto;
+}
+
+.mainForm input,
+label {
+  width: 100%;
+  margin: auto;
+  margin: 3% auto;
+}
+
+.subdiv-form p {
+  width: 150px;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.radio-group input {
+  margin-top: 0.65rem;
+  width: fit-content;
+}
+
+.radio-group label {
+  width: fit-content;
+}
+
+.submitButton {
+  background-color: #8ae0ae;
+  border: none;
+  width: fit-content !important;
+  color: white;
+  padding: 7% 13%;
+  border-radius: 10px;
+  margin-top: 10% !important;
+  margin-left: 0% !important;
+}
+.submitButton:hover {
+  cursor: pointer;
+}
+
+.side-div {
+  margin-left: -15%;
+}
+
+.side-div p {
+  background-color: white;
+  border-radius: 10px;
+  width: 70%;
+  padding: 3%;
+}
