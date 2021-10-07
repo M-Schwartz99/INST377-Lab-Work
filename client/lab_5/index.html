@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 </head>
 
@@ -15,13 +15,13 @@
     <div>
         <div class="columns is-vcentered">
             <div class="column">
-                <form action="/api" method="POST" class="bd-notification is-primary mainForm">
+                <form action="/api" method="GET" class="bd-notification is-primary mainForm">
                     <label for="fname">First Name</label>
                     <input type="text" name="fname" required>
                     <label for="foodpred">Food Preference</label>
                     <input type="text" name="foodpref" required>
                     <div class="subdiv-form">
-                        <p>Veggie or Vegan</p>
+                        <p>Vegie or Vegan</p>
                         <div class="radio-group">
                             <label for="yes">Yes</label>
                             <input type="radio" name="veg_vegan" value="yes" required>

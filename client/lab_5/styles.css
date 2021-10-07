@@ -18,16 +18,6 @@ body {
 
 /* Page Layout */
 
-.wrapper {
-  display: flex;
-}
-
-.container {
-  max-width: 960px;
-  margin-top: 25px;
-}
-
-
 .columns {
   display: flex !important;
   justify-content: space-around !important;
@@ -81,7 +71,7 @@ label {
 }
 
 .submitButton {
-  background-color: #8ae0ae;
+  background-color: #27c569;
   border: none;
   width: fit-content !important;
   color: white;
