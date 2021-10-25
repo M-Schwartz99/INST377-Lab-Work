@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- leaflet css -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <!-- leaflet js -->
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+  </head>
+  <body>
+    <div class="mainContainer">
+      <div class="containerLeft">
+        <h1>Prof Alex's Lab 5</h1>
+        <p>Zip Code Food Search</p>
+        <h4>Search</h4>
+        <input
+          type="text"
+          name="search-box"
+          placeholder="search here"
+          id="search"
+        />
+        <div>
+          <ul id="result-list"></ul>
+        </div>
+      </div>
+      <div class="containerLeft">
+        <div id="mapid"></div>
+      </div>
+    </div>
+  </body>
+  <!-- custom js -->
+  <script src="script.js"></script>
+</html>
